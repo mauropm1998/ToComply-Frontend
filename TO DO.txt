@@ -1,0 +1,235 @@
+Falta implementar:
+* Painel de controle
+* Perfil e configurações do sistema ✅
+* Notificações e alertas ✅
+* Relatórios
+* Riscos e Oportunidades (Nos processos) ✅
+* Página de login e criação de conta
+
+
+PARA FAZER [
+   *** Entidade dos indicadores (
+      title, indicator_type, value, change{up, down}, value_history [ value, date ], status {used, not_used}, created_at, updated_at
+   ) ***
+]
+
+
+================ RELATORIOS  ==================
+Um relatório de compliance deve abordar uma variedade de aspectos relevantes para avaliar e comunicar o estado do sistema de compliance de uma organização. Aqui estão alguns elementos-chave que geralmente são incluídos em um relatório de compliance:
+
+1. **Introdução e Contextualização:** Esta seção estabelece o propósito do relatório, seu escopo e contexto, incluindo a regulamentação pertinente, políticas internas e diretrizes.
+
+2. **Estrutura de Governança de Compliance:** Descrição da estrutura organizacional de compliance da empresa, incluindo papéis e responsabilidades de membros da alta administração, comitês de compliance e outras partes interessadas.
+
+3. **Avaliação de Riscos de Compliance:** Análise dos riscos de compliance enfrentados pela organização, incluindo identificação, avaliação e priorização de riscos, bem como estratégias para mitigação.
+
+4. **Atividades e Controles de Compliance:** Detalhamento das atividades de compliance realizadas durante o período coberto pelo relatório, incluindo monitoramento, testes, auditorias internas e externas, e eficácia dos controles implementados.
+
+5. **Casos de Não Conformidade:** Relato de incidentes de não conformidade ocorridos durante o período, incluindo investigações realizadas, ações corretivas tomadas e lições aprendidas.
+
+6. **Treinamento e Conscientização:** Descrição das iniciativas de treinamento e conscientização em compliance conduzidas pela organização, bem como métricas de participação e eficácia.
+
+7. **Comunicação e Consulta:** Avaliação da eficácia dos canais de comunicação interna e externa relacionados ao compliance, bem como a consulta com partes interessadas relevantes.
+
+8. **Desenvolvimentos Regulatórios e Jurisprudenciais:** Resumo das mudanças significativas na regulamentação e jurisprudência relacionadas ao compliance que afetam a organização.
+
+9. **Desempenho e Métricas de Compliance:** Apresentação de métricas e indicadores-chave de desempenho relacionados ao compliance, permitindo a avaliação do progresso e a tomada de decisões informadas.
+
+10. **Recomendações e Planos de Ação:** Propostas de melhorias no sistema de compliance, juntamente com planos de ação para implementar essas recomendações.
+
+11. **Conclusão e Assinaturas:** Resumo das principais conclusões do relatório, incluindo certificações e assinaturas de membros da administração ou comitê de compliance.
+
+
+Os relatórios em um sistema de gestão de compliance devem ser abrangentes, claros e precisos, fornecendo informações detalhadas sobre a conformidade da organização com as normas, regulamentos e políticas internas. Aqui estão alguns elementos essenciais que esses relatórios devem incluir:
+
+1. **Resumo Executivo**:
+   - Visão geral dos principais achados e conclusões.
+   - Destaques das áreas de maior risco e ações corretivas recomendadas.
+   - Status geral de conformidade da organização.
+
+2. **Objetivos e Escopo**:
+   - Propósito do relatório.
+   - Normas e regulamentos específicos avaliados.
+   - Período coberto pelo relatório.
+
+3. **Metodologia**:
+   - Descrição das abordagens e técnicas utilizadas na avaliação de conformidade.
+   - Ferramentas e processos utilizados para a coleta de dados.
+
+4. **Resultados da Avaliação de Conformidade**:
+   - Detalhamento dos resultados da avaliação de conformidade para cada área ou departamento.
+   - Identificação de áreas em conformidade e não conformidade.
+   - Pontuação ou classificação de conformidade (se aplicável).
+
+5. **Identificação de Riscos e Não Conformidades**:
+   - Descrição detalhada de todas as não conformidades identificadas.
+   - Análise de risco associada a cada não conformidade.
+   - Impacto potencial das não conformidades na organização.
+
+6. **Ações Corretivas e Planos de Mitigação**:
+   - Recomendações para ações corretivas para resolver as não conformidades.
+   - Planos de mitigação de riscos identificados.
+   - Prazos para implementação das ações corretivas.
+
+7. **Status das Ações Corretivas Anteriores**:
+   - Atualização sobre o progresso das ações corretivas de relatórios anteriores.
+   - Verificação da eficácia das ações corretivas implementadas.
+
+ tooltip: {
+        x: {
+            show: false
+        }
+    }
+    
+
+
+8. **Monitoramento e Revisão Contínua**:
+   - Planos para monitoramento contínuo da conformidade.
+   - Frequência das avaliações futuras.
+   - Responsáveis pelo acompanhamento e revisão das ações corretivas.
+
+9. **Anexos e Documentação de Suporte**:
+   - Evidências documentais que suportam os achados do relatório.
+   - Tabelas, gráficos e outras visualizações de dados para facilitar a compreensão dos resultados.
+   - Referências a normas e regulamentos aplicáveis.
+
+10. **Conclusão e Recomendações Gerais**:
+    - Resumo das principais conclusões do relatório.
+    - Recomendações gerais para melhorar a conformidade e reduzir riscos futuros.
+    - Considerações finais sobre a postura de conformidade da organização.
+
+Esses elementos garantem que os relatórios de compliance forneçam uma visão abrangente e detalhada da conformidade da organização, facilitando a tomada de decisões informadas e a implementação de melhorias contínuas.
+
+
+
+---> REVISÃO MENSAL - Colocar no perfil de usuário
+
+---> PESQUISAR:
+--- Como usar o tinymce com vueJS
+
+--------------------------------------
+Treinamento e Conscientização:
+
+* Avaliação do Treinamento: Considere incluir uma avaliação do treinamento para que os participantes possam fornecer feedback sobre a eficácia do treinamento, o conteúdo, o instrutor, entre outros aspectos.
+
+---------------------------------------------------------
+*** Ao criar uma auditoria, perguntar, se é para agendar para o futuro ou se inicia agora, devidir por etapas o processo. Saber se a auditoria já começou ou se vai iniciar agora, o que envolve o estado ou situação da auditoria. Dependendo disto, certos campos serão mostrados, por exemplo se já tiver começado, haverá a possibilidade de relatar não conformidades, evidências, etc ***
+
+=== COLOCAR NO PROGRAMA ===
+1. **Planejamento de Auditorias**:
+--- Os usuários podem programar auditorias com base em requisitos regulamentares, calendários internos ou eventos específicos, garantindo que as auditorias sejam realizadas de maneira oportuna e abrangente.
+
+--- Os requisitos estabelecidos pelas normas ISO devem estar expostos em algum lugar na página de auditoria
+
+--- Listas de verificação e Equipes de auditoria (Possibilidade de interação) 
+--- Os membros convidados, podem receber um convite e um código válido por 24h com acesso a página de auditoria, assim evita-se o cadastro dos membros.
+
+2. **Execução de Auditorias**:
+   - Durante as auditorias, o SaaS pode fornecer suporte para registrar evidências, entrevistar funcionários e documentar observações.
+   - Os auditores podem usar o SaaS para seguir listas de verificação personalizadas, registrar não conformidades e capturar evidências fotográficas ou documentais conforme necessário.
+
+3. **Ações Corretivas e Preventivas**:
+   - O SaaS pode incluir funcionalidades para gerenciar ações corretivas e preventivas decorrentes de auditorias, permitindo que os usuários atribuam responsabilidades, estabeleçam prazos e monitorem o progresso.
+   - As ações corretivas e preventivas podem ser vinculadas diretamente às não conformidades identificadas durante as auditorias, garantindo uma abordagem sistemática para resolver problemas e prevenir sua recorrência.
+
+4. **Seguimento e Verificação**:
+   - O SaaS pode facilitar o acompanhamento e a verificação do status das ações corretivas e preventivas, garantindo que as questões identificadas durante as auditorias sejam devidamente resolvidas.
+   - Os usuários podem configurar lembretes e notificações automáticas para garantir que as ações sejam concluídas dentro dos prazos estabelecidos.
+
+5. **Relatórios de Auditorias**:
+   - Após a conclusão das auditorias, o SaaS pode gerar relatórios detalhados que destacam as descobertas, incluindo conformidades, não conformidades, áreas de melhoria e melhores práticas.
+   - Os relatórios podem ser personalizados para atender aos requisitos específicos da organização ou às expectativas dos auditores externos.
+
+1. Planeje
+Estabeleça seu programa de auditoria por objeto auditado, responsáveis, data e método. 
+Utilize os checklists prontos ou construa checklists personalizados.
+Relacione auditorias para a verificação de não conformidades já apontadas.
+
+2. Audite
+Indique a conformidade do item auditado no checklist.
+Inclua evidências e comentários.
+
+3. Relate
+Receba automaticamente o relatório completo da auditoria executada, com dados como porcentagem de conformidade, número de não conformidades, oportunidades de melhoria e pontos fortes.
+Reabra a auditoria para edições, se necessário.
+Imprima o relatório.
+Envie o relatório por e-mail.
+
+3. Consulte
+Veja o histórico completo de auditorias realizadas.
+Filtre auditorias por norma.
+
+---------------- ISO 9001 ----------------
+
+A norma ISO 9001 estabelece uma série de requisitos para um sistema de gestão da qualidade (SGQ) que uma organização precisa atender para garantir a conformidade com os padrões de qualidade internacionalmente reconhecidos. Aqui estão os principais requisitos estabelecidos pela norma ISO 9001:
+
+1. **Escopo do Sistema de Gestão da Qualidade**: A organização deve determinar o escopo do seu sistema de gestão da qualidade, ou seja, quais processos e áreas da organização serão abrangidos pela aplicação da norma.
+
+2. **Requisitos de Documentação**: A norma requer que a organização estabeleça, documente, implemente e mantenha um sistema de gestão da qualidade, incluindo políticas de qualidade, procedimentos operacionais, instruções de trabalho e registros necessários para garantir a eficácia do sistema.
+
+3. **Comprometimento da Alta Direção**: A alta direção deve demonstrar liderança e comprometimento com o sistema de gestão da qualidade, assegurando que os objetivos da qualidade sejam estabelecidos, comunicados e entendidos pela organização.
+
+4. **Planejamento**: A organização deve planejar as atividades necessárias para atender aos requisitos da norma, incluindo identificação de riscos e oportunidades, estabelecimento de objetivos da qualidade e planos de ação para alcançá-los.
+
+5. **Suporte**: A norma requer que a organização forneça os recursos necessários para implementar, manter e melhorar continuamente o sistema de gestão da qualidade, incluindo recursos humanos, infraestrutura, ambiente de trabalho adequado e competências necessárias.
+
+6. **Operação**: A organização deve garantir que seus processos sejam planejados, implementados e controlados para atender aos requisitos do produto ou serviço, bem como aos requisitos do sistema de gestão da qualidade.
+
+7. **Avaliação do Desempenho**: A organização deve monitorar, medir, analisar e avaliar regularmente o desempenho do sistema de gestão da qualidade, usando indicadores de desempenho adequados e tomar as ações necessárias para alcançar os objetivos da qualidade.
+
+8. **Melhoria Contínua**: A norma enfatiza a importância da melhoria contínua, exigindo que a organização identifique oportunidades de melhoria e implemente ações para aumentar a eficácia do sistema de gestão da qualidade.
+
+
+---------------- PLANOS DE AÇÃO ------
+O acompanhamento de planos de ação em um Software as a Service (SaaS) de auditoria pode ser feito de maneira eficiente e sistemática, garantindo que as ações corretivas e preventivas sejam implementadas conforme planejado. Aqui estão algumas maneiras de realizar esse acompanhamento:
+
+1. **Centralização de Dados**: Utilize o SaaS de auditoria para centralizar todos os planos de ação em um único local. Isso permite fácil acesso e visibilidade para todos os envolvidos no processo de acompanhamento.
+
+2. **Atribuição de Responsabilidades**: Atribua responsáveis claros para cada ação dentro dos planos de ação. Certifique-se de que cada pessoa responsável compreenda claramente suas tarefas e prazos.
+
+3. **Acompanhamento de Status**: Utilize recursos do SaaS de auditoria para acompanhar o status de cada plano de ação. Isso pode incluir a marcação de tarefas como "em andamento", "concluído" ou "atrasado".
+
+4. **Notificações Automatizadas**: Configure notificações automáticas dentro do SaaS para lembrar os responsáveis sobre prazos próximos ou atrasos nas tarefas. Isso ajuda a manter todos os envolvidos cientes e focados em suas responsabilidades.
+
+5. **Relatórios e Dashboards**: Utilize relatórios e dashboards personalizáveis no SaaS para acompanhar o progresso geral dos planos de ação. Isso fornece uma visão geral rápida e permite identificar áreas que precisam de mais atenção.
+
+6. **Comentários e Comunicação**: Permita a comunicação fácil e colaborativa entre os membros da equipe dentro do SaaS. Isso pode incluir a capacidade de adicionar comentários, compartilhar documentos relevantes e discutir o progresso das ações.
+
+7. **Revisões Periódicas**: Agende revisões periódicas dos planos de ação para avaliar o progresso, identificar possíveis desvios e ajustar os planos conforme necessário. Isso garante que o acompanhamento seja contínuo e adaptável às mudanças nas circunstâncias.
+
+8. **Integração com Outros Sistemas**: Se necessário, integre o SaaS de auditoria com outros sistemas utilizados pela organização para garantir a consistência e a integridade dos dados relacionados aos planos de ação.
+
+Ao seguir essas práticas, o acompanhamento de planos de ação em um SaaS de auditoria pode ser feito de maneira eficiente, promovendo uma cultura de melhoria contínua e garantindo que as ações corretivas e preventivas sejam implementadas de forma eficaz.
+
+------------------ Resultados de Inspeções no Processo de Auditoria --------------------
+1. Identificação de Não Conformidades: Durante uma inspeção, as não conformidades são identificadas quando um processo, produto ou prática não está em conformidade com os requisitos estabelecidos, sejam eles internos da organização ou externos (como regulamentos, normas ou padrões da indústria).
+
+2. Registro de Resultados: Os resultados das inspeções são registrados em relatórios de inspeção, que documentam as descobertas, incluindo quaisquer não conformidades identificadas, observações relevantes e evidências coletadas durante a inspeção.
+
+3. Classificação e Avaliação das Não Conformidades: As não conformidades identificadas são frequentemente classificadas com base em sua gravidade e impacto. Isso pode variar de não conformidades menores que têm pouco ou nenhum impacto no produto ou processo até não conformidades críticas que representam um risco significativo para a qualidade ou segurança.
+
+------------------------ NÃO CONFORMIDADES -------------------------
+
+As não conformidades são desvios ou falhas em relação aos requisitos estabelecidos. Podem ocorrer em produtos, processos, sistemas ou práticas dentro de uma organização. Esses desvios podem ser internos, quando não estão em conformidade com os padrões, procedimentos ou requisitos internos da organização, ou externos, quando não estão em conformidade com regulamentos, normas ou expectativas do cliente.
+
+Para encontrar e resolver não conformidades, geralmente segue-se um processo estruturado, que pode incluir os seguintes passos:
+
+1. **Identificação**: A primeira etapa é identificar as não conformidades. Isso pode ser feito por meio de diferentes métodos, como inspeções, auditorias, análise de dados, reclamações de clientes, feedback de funcionários, entre outros.
+
+2. **Registro**: Uma vez identificadas, as não conformidades devem ser registradas de forma precisa e detalhada. Isso geralmente é feito por meio de um sistema de gestão de qualidade ou outro sistema de registro apropriado.
+
+3. **Avaliação**: As não conformidades identificadas são avaliadas quanto à sua gravidade, impacto e causa raiz. Isso pode envolver a realização de análises de risco, investigações ou outras técnicas de avaliação.
+
+4. **Planejamento de Ação Corretiva**: Com base na avaliação das não conformidades, são desenvolvidos planos de ação corretiva para corrigir os problemas identificados. Esses planos devem incluir atividades específicas, responsáveis, prazos e recursos necessários para implementação.
+
+5. **Implementação**: Os planos de ação corretiva são implementados de acordo com o planejado. Isso pode envolver treinamento de pessoal, modificações de processos, atualizações de procedimentos, entre outras ações necessárias para resolver as não conformidades.
+
+6. **Verificação**: Após a implementação das ações corretivas, é importante verificar se elas foram eficazes em resolver as não conformidades. Isso pode incluir a realização de verificações de acompanhamento, análise de dados ou outras técnicas de verificação.
+
+7. **Prevenção de Recorrência**: Além das ações corretivas, é importante também identificar e implementar medidas preventivas para evitar a recorrência das não conformidades no futuro. Isso pode envolver a revisão de processos, treinamento adicional, atualização de procedimentos, entre outras ações preventivas.
+
+8. **Registro e Comunicação**: Todas as etapas do processo de identificação e resolução de não conformidades devem ser devidamente registradas e comunicadas às partes interessadas relevantes. Isso garante transparência e rastreabilidade no tratamento das não conformidades.
+
+9. **Aprendizado e Melhoria Contínua**: Por fim, é importante aprender com as não conformidades identificadas e implementar melhorias para evitar problemas similares no futuro. Isso faz parte do ciclo de melhoria contínua da organização.
+
+Seguir este processo estruturado ajuda as organizações a identificar, resolver e prevenir não conformidades de maneira eficaz, garantindo a qualidade dos produtos, processos e serviços.

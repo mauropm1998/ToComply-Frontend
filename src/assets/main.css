@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f7f6f9;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  outline: none;
+}
+
+.table-long-text {
+  max-width: 180px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.overflow-long-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dropdown-enter-active {
+  transition: all 0.4s ease;
+}
+
+.dropdown-leave-active {
+  transition: all 0.2s ease;
+}
+
+.dropdown-enter-from {
+  opacity: 0;
+  transform: translateY(10%);
+}
+
+.dropdown-leave-to {
+  opacity: 0;
+}
+
+@layer components {
+  .beauty-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .beauty-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .beauty-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+  }
+}
+
+
+.btn-primary {
+  @apply flex items-center justify-center w-1/2 px-3 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto gap-x-2 hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600;
+}
+
+.btn-outline-primary {
+  @apply flex items-center justify-center w-1/2 px-3 py-2 text-sm tracking-wide text-blue-600 transition-colors duration-200 bg-transparent font-medium rounded-lg shrink-0 sm:w-auto gap-x-2 hover:bg-blue-500 hover:text-white;
+}
+
+.btn-light {
+  @apply flex items-center justify-center px-3 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border border-gray-400/40 rounded-lg gap-x-1 hover:bg-gray-100;
+}
+
+.btn-neutral {
+  @apply bg-gray-100 text-gray-500 flex first-letter:flex items-center justify-center w-1/2 px-3 py-2 text-sm tracking-wide  transition-colors duration-200 rounded-md shrink-0 sm:w-auto gap-x-2 hover:bg-gray-200;
+}
+
+.btn-neutral-dark {
+  @apply bg-gray-200 text-gray-600 flex first-letter:flex items-center justify-center w-1/2 px-3 py-2 text-sm tracking-wide  transition-colors duration-200 rounded-md shrink-0 sm:w-auto gap-x-2 hover:bg-gray-100;
+}
+
+.btn-danger {
+  @apply bg-transparent text-red-500 border flex first-letter:flex items-center justify-center w-1/2 px-2.5 p-0.5 text-sm tracking-wide transition-colors duration-200 rounded-md shrink-0 sm:w-auto hover:bg-red-500 hover:text-white;
+}
+
+.btn-filter {
+  @apply flex items-center gap-x-2 px-5 py-2 text-xs font-medium text-gray-500 transition-colors duration-200 sm:text-sm hover:bg-blue-500 hover:text-white;
+}
+
+.btn-filter.active {
+  @apply bg-blue-500 text-white;
+}
+
+.form-title {
+  @apply font-bold text-lg text-blue-500 mb-2;
+}
+
+.form-input {
+  @apply block w-full px-4 mt-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-400/70 rounded-lg  focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300 disabled:bg-gray-100;
+}
+
+.form-select {
+  @apply block w-full px-4 py-[9.2px] mt-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-400/70 rounded-lg  focus:border-blue-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300 disabled:bg-gray-100;
+}
+
+.was-validated .form-input:valid,
+.form-input.is-valid {
+  padding-right: calc(1.5em + 0.75rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.was-validated .form-input:invalid,
+.form-input.is-invalid {
+  padding-right: calc(1.5em + 0.75rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  border: 1px solid rgb(254, 115, 115);
+  box-shadow: none;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.card {
+  @apply bg-white p-4 rounded-lg;
+}
+
+.info-title {
+  @apply font-semibold mb-3 text-lg text-gray-600;
+}
+
+.circular-progress {
+  --size: 250px;
+  --half-size: calc(var(--size) / 2);
+  --stroke-width: 20px;
+  --radius: calc((var(--size) - var(--stroke-width)) / 2);
+  --circumference: calc(var(--radius) * pi * 2);
+  --dash: calc((var(--progress) * var(--circumference)) / 100);
+}
+
+.circular-progress circle {
+  cx: var(--half-size);
+  cy: var(--half-size);
+  r: var(--radius);
+  stroke-width: var(--stroke-width);
+  fill: none;
+  stroke-linecap: round;
+}
+
+.circular-progress circle.bg {
+  stroke: #ddd;
+}
+
+.circular-progress circle.fg {
+  transform: rotate(-90deg);
+  transform-origin: var(--half-size) var(--half-size);
+  stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
+  transition: stroke-dasharray 0.3s linear 0s;
+  stroke: #5394fd;
+}

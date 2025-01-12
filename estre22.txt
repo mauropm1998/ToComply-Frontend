@@ -1,0 +1,21 @@
+# EXEMPLO DE NORMA
+
+10. **Histórico e Revisões**
+    - **Versão da Norma:** Número da versão atual da norma registrada.
+    - **Histórico de Revisões:** Registros de todas as revisões feitas à norma, incluindo datas e descrições das mudanças.
+    - **Comentários e Observações:** Comentários adicionais ou observações sobre a norma e sua implementação.
+#### **8. Treinamento e Comunicação**
+- **Plano de Treinamento:** Treinamentos trimestrais para todos os funcionários.
+- **Comunicação Interna:** E-mails, newsletters e workshops.
+
+#### **9. Monitoramento e Avaliação**
+- **Indicadores de Performance (KPIs):** Número de incidentes de segurança, tempo de resposta a incidentes.
+- **Auditorias Internas:** Auditorias semestrais.
+- **Relatórios de Conformidade:** Relatórios trimestrais para o conselho de administração.
+
+#### **10. Histórico e Revisões**
+- **Versão da Norma:** 1.2
+- **Histórico de Revisões:** 
+  - 1.1 - 15/01/2015 - Adição de novos controles.
+  - 1.2 - 20/07/2018 - Atualização de procedimentos de resposta a incidentes.
+- **Comentários e Observações:** Revisão planejada para o próximo ano fiscal.
