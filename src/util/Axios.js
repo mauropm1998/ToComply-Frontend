@@ -6,7 +6,7 @@ const profile = getProfile()
 const userService = new UserService()
 
 const instance = axios.create({
-  baseURL: profile === 'dev' ? 'http://localhost:8000/api/v1' : 'https://comply360.ao/api/v1'
+  baseURL: profile === 'dev' ? 'http://161.97.151.3:8000/api/v1' : 'https://comply360.ao/api/v1'
 })
 
 // Interceptor para anexar o token
